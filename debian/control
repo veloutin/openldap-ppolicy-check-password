@@ -1,4 +1,5 @@
 Source: slapd-check-password
+Section: net
 Priority: optional
 Standards-Version: 3.9.3
 Maintainer: Vincent Vinet <vvinet@revolutionlinux.com>
@@ -7,6 +8,5 @@ Build-Depends: debhelper (>= 7), libc6 (>= 2.7), libdb4.7, libgnutls26 (>= 2.7.1
 Package: slapd-check-password
 Architecture: amd64
 Depends: libcrack2 (>= 2.8.15), slapd (>= 2.4.21)
-Section: net
 Description: OpenLDAP password quality check module
  This is a password quality check module to be used with ppolicy
