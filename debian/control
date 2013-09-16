@@ -1,8 +1,8 @@
-Source: openldap-check-password
+Source: slapd-check-password
 Priority: optional
 Standards-Version: 3.9.3
 Maintainer: Vincent Vinet <vvinet@revolutionlinux.com>
-Build-Depends: debhelper (>= 7), libc6 (>= 2.7), libdb4.7, libgnutls26 (>= 2.7.14-0), libgssapi-krb5-2 (>= 1.6.dfsg.2), libldap-2.4-2 (= 2.4.21-0ubuntu5.8~cscv3), libltdl7 (>= 2.2.6b), libperl5.10 (>= 5.10.1), libsasl2-2, libslp1, libwrap0 (>= 7.6-4~), unixodbc (>= 2.2.11), coreutils (>= 4.5.1-1), psmisc, perl (>> 5.8.0) | libmime-base64-perl, adduser, libcrack2-dev (>= 2.8.15), libdb-dev
+Build-Depends: debhelper (>= 7), libc6 (>= 2.7), libdb4.7, libgnutls26 (>= 2.7.14-0), libgssapi-krb5-2 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.21), libltdl7 (>= 2.2.6b), libperl5.10 (>= 5.10.1), libsasl2-2, libslp1, libwrap0 (>= 7.6-4~), unixodbc (>= 2.2.11), coreutils (>= 4.5.1-1), psmisc, perl (>> 5.8.0) | libmime-base64-perl, adduser, libcrack2-dev (>= 2.8.15), libdb-dev
 
 Package: slapd-check-password
 Architecture: amd64
