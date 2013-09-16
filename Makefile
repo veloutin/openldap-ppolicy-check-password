@@ -51,14 +51,13 @@ check_password.o:
 check_password: clean configure_ldap check_password.o
 	$(CC) -shared -o check_password.so check_password.o $(CRACKLIB_LIB)
 
-install: check_password
-	cp -f check_password.so $(LIBDIR)
+#install: check_password
+#	cp -f check_password.so $(LIBDIR)/check_password.so
 
 clean:
 	$(RM) check_password.o check_password.so check_password.lo
 	$(RM) -r .libs
 
 configure_ldap:
-	pushd $(OPENLDAP_SRC)
-	./configure
-	make depend
+	OPENLDAP_DIR=$(OPENLDAP_SRC) ./configure_openldap
+	make -C $(OPENLDAP_SRC) depend

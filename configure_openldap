@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -z "$OPENLDAP_DIR" ]; then
+    OPENLDAP_DIR=./openldap
+fi
+
+cd $OPENLDAP_DIR
+
+./configure
