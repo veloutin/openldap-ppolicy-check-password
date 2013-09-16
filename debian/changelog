@@ -1,0 +1,5 @@
+slapd-check-password (2.4.21-0ubuntu5.8~ppa1) lucid; urgency=low
+
+  * Initial release.
+
+ -- Vincent Vinet <vvinet@revolutionlinux.com>  Mon, 16 Sep 2013 09:45:52 -0400
